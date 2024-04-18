@@ -1,0 +1,16 @@
+<main>
+  <div>
+    <h1>{{ 'Contact' | translate | emoji }}</h1>
+    <form (ngSubmit)="onSubmit()">
+      <mat-form-field>
+        <mat-label>{{ 'NAME' | translate }}</mat-label>
+        <input matInput [(ngModel)]="name" name="name">
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>{{ 'MESSAGE' | translate }}</mat-label>
+        <textarea matInput [(ngModel)]="message" name="message"></textarea>
+      </mat-form-field>
+      <button mat-raised-button #submitButton type="submit" [style.backgroundColor]="currentColor">{{ 'SEND' | translate }}</button>
+    </form>
+  </div>
+</main>

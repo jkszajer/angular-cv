@@ -1,0 +1,38 @@
+.education-section {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .section-title {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .education-card {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+  
+  .mat-card-title {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .mat-card-subtitle {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  .date-range {
+    font-size: 1em;
+    color: #999;
+  }
+  
+  .mat-card-content {
+    font-size: 1em;
+    color: #333;
+  }

@@ -1,0 +1,9 @@
+<div class="interests-section">
+    <h1 class="section-title">{{ 'Interests' | translate | emoji }}</h1>
+    <mat-card *ngFor="let interest of interestsData" class="interest-card">
+      <mat-card-title>{{ interest.name | translate }}</mat-card-title>
+      <mat-card-content>
+        <p>{{ interest.description | translate }}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>

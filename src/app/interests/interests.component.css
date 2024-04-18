@@ -1,0 +1,28 @@
+.interests-section {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .section-title {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .interest-card {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+  
+  .mat-card-title {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .mat-card-content {
+    font-size: 1em;
+    color: #333;
+  }

@@ -1,0 +1,32 @@
+.info-card {
+    width: 80%;
+    margin: auto;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1em;
+  }
+  
+  .mat-card-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .info-image {
+    background-image: url('../../assets/img.png');
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  
+  .mat-card-title,
+  .mat-card-subtitle {
+    color: #333;
+  }
+  
+  .mat-card-content {
+    color: #666;
+    font-size: 1em;
+  }
+  

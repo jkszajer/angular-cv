@@ -1,0 +1,12 @@
+<div class="education-section">
+    <h1 class="section-title">{{ 'Education' | translate | emoji }}</h1>
+    <mat-card *ngFor="let education of educationData" class="education-card">
+      <mat-card-title>{{ education.degree | translate }}</mat-card-title>
+      <mat-card-subtitle>{{ education.institution | translate }}</mat-card-subtitle>
+      <p class="date-range">{{ education.startDate | translate }} - {{ education.endDate | translate }}</p>
+      <mat-card-content>
+        <p>{{ education.description | translate }}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  

@@ -1,0 +1,11 @@
+<div class="experience-section">
+  <h1 class="section-title">{{ 'Experience' | translate | emoji }}</h1>
+  <mat-card *ngFor="let experience of experienceData" class="experience-card">
+    <mat-card-title>{{ experience.jobTitle | translate }}</mat-card-title>
+    <mat-card-subtitle>{{ experience.company | translate }}</mat-card-subtitle>
+    <p class="date-range">{{ experience.startDate | translate }} - {{ experience.endDate | translate }}</p>
+    <mat-card-content>
+      <p>{{ experience.jobDescription | translate }}</p>
+    </mat-card-content>
+  </mat-card>
+</div>

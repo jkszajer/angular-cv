@@ -1,0 +1,24 @@
+<main class="main">
+    <div class="left-section">
+        <app-info/>
+        
+
+    </div>
+    <div class="right-section">
+        <mat-toolbar class="toolbar">
+            <a mat-button routerLink="/interests">{{"Interests" | translate}}</a>
+            <a mat-button routerLink="/experience">{{"Experience" | translate}}</a>
+            <a mat-button routerLink="/education">{{"Education" | translate}}</a>
+            <div>
+                <button style="background-image: url('../assets/flags/pl.png'); background-size: 100% 100%; background-repeat: no-repeat;" mat-button (click)="changeLanguage('pl')"></button>
+                <button style="background-image: url('../assets/flags/gb.png'); background-size: 100% 100%; background-repeat: no-repeat;" mat-button (click)="changeLanguage('en')"></button>
+                <button style="background-image: url('../assets/flags/es.png'); background-size: 100% 100%; background-repeat: no-repeat;" mat-button (click)="changeLanguage('es')"></button>
+            </div>
+            <app-color/>
+            
+        </mat-toolbar>
+        <router-outlet />
+    </div>
+    
+</main>
+<app-contact/>

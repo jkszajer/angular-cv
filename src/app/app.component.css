@@ -1,0 +1,94 @@
+/* Stylizacja dla całego body */
+main {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #c7cbff;
+}
+
+/* Stylizacja dla wszystkich sekcji */
+.section {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+/* Stylizacja dla tytułów sekcji */
+.section-title {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+/* Stylizacja dla kart */
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Stylizacja dla tytułów kart */
+.card-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+/* Stylizacja dla treści kart */
+.card-content {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Stylizacja dla przycisków */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+  }
+.toolbar button{
+    
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    ;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+  
+  .left-section {
+    width: 50%;
+    padding: 20px;
+    margin-top: auto;
+margin-bottom: auto;
+  }
+  
+  .right-section {
+    width: 50%;
+    padding: 20px;
+    
+  }
+

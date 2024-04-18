@@ -1,0 +1,38 @@
+.experience-section {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .section-title {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .experience-card {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+  
+  .job-title {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .company-name {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  .date-range {
+    font-size: 1em;
+    color: #999;
+  }
+  
+  .job-description {
+    font-size: 1em;
+    color: #333;
+  }
